@@ -1,3 +1,10 @@
+/*style for the body*/
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
 /*style for footer*/
 footer {
     position: absolute;
@@ -53,3 +60,25 @@ footer {
     .btn:hover {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
+
+    /* @media(max-width:768px) {
+
+      .jumbotron h1 {
+        font-size: 24px;
+      }
+
+      .jumbotron img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      } */
+
+
+/* 
+    }
+
+    @media (max-width:576px) {
+
+
+    } */
