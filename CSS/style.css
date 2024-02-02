@@ -45,11 +45,11 @@ footer {
 
 /* Add hover effect for links */
     a:hover {
-      color: #5720ef; /* add color on hover */
-      text-decoration: underline; /* Add underline on hover */
+      color: #5720ef; 
+      text-decoration: underline; 
     }
 
     /* Add box shadow for buttons on hover */
     .btn:hover {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
