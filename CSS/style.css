@@ -1,3 +1,4 @@
+/*style for footer*/
 footer {
     position: absolute;
     width: 100%;
@@ -7,19 +8,22 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+/*style for card container*/
 .cardContainer {
     margin-bottom: 15px;
 }
+/*style for card*/
 .card {
     margin: 0 auto;
 }
 
-
+/*style for navbar*/
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
 }
 
+/* style for background image for jumbotron*/
 .rockBackground {
     height: calc(100vh - 25px);
     background-image: url(../images/banner-2.jpg);
@@ -38,3 +42,14 @@ footer {
     color:black;
     text-align: center;
   }
+
+/* Add hover effect for links */
+    a:hover {
+      color: #5720ef; /* add color on hover */
+      text-decoration: underline; /* Add underline on hover */
+    }
+
+    /* Add box shadow for buttons on hover */
+    .btn:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+    }
