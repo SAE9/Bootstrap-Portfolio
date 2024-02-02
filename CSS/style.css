@@ -5,6 +5,7 @@ footer {
     line-height: 60px;
     background-color: #f5f5f5;
     margin-top: 50px;
+    text-align: center;
 }
 .cardContainer {
     margin-bottom: 15px;
@@ -21,7 +22,7 @@ footer {
 
 .rockBackground {
     height: calc(100vh - 25px);
-    background-image: url(../images/rockOn_dark.jpg);
+    background-image: url(../images/banner-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
