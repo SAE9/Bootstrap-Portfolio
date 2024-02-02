@@ -1,26 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  
-  <body>
-    <!--Code for the navbar-->
-    <header class="header">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--Code for the navbar-->
+  <header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">My Portfolio</a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">My Portfolio</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#work">Work</a>
             </li>
@@ -33,7 +36,7 @@
             <li class="nav-item">
               <a class="nav-link active" href="#contact">Contact</a>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -41,24 +44,28 @@
   </header>
 
   <!-- Jumbotron Code -->
-<div class="p-5 mb-4 bg-body-tertiary rockBackground">
-  <div class="container-fluid py-5 jumboCopy">
-    <h1 class="display-5 fw-bold">My Name</h1>
-    <p class="col-md-12 fs-4">Hello! I'm [Your Name], a passionate [Your Profession] specializing in [Your Skills]. Welcome to my digital portfolio, where innovation meets design. Explore my projects to see how I blend creativity with technology to craft impactful digital experiences. Let's connect and explore the endless possibilities together!</p>
-   <img src="./images/Cute-cartoon-girl-PNG (1).png" alt="pic of a girl in a raincoat">
+  <div class="p-5 mb-4 bg-body-tertiary rockBackground">
+    <div class="container-fluid py-5 jumboCopy">
+      <h1 class="display-5 fw-bold">My Name</h1>
+      <p class="col-md-12 fs-4">Hello! I'm [Your Name], a passionate [Your Profession] specializing in [Your Skills].
+        Welcome to my digital portfolio, where innovation meets design. Explore my projects to see how I blend
+        creativity with technology to craft impactful digital experiences. Let's connect and explore the endless
+        possibilities together!</p>
+      <img src="./images/Cute-cartoon-girl-PNG (1).png" alt="pic of a girl in a raincoat">
+    </div>
   </div>
-</div>
 
 
-<!-- Cards for the Work section -->
-<div class="section">
-  <div class="container mt-5" id="work">
-    <div class="row">
-      <h1>Work</h1>
+  <!-- Cards for the Work section -->
+  <div class="section">
+    <div class="container mt-5" id="work">
+      <div class="row">
+        <h1>Work</h1>
         <!-- Card 1 -->
         <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
           <div class="card">
-            <img src="./images/krecs.png" class="card-img-top" alt="image of website page showing both in large and small format">
+            <img src="./images/krecs.png" class="card-img-top"
+              alt="image of website page showing both in large and small format">
             <div class="card-body">
               <h5 class="card-title">Krecs</h5>
               <p class="card-text">A website to search korean drama recomendations.</p>
@@ -79,8 +86,8 @@
           </div>
         </div>
 
-         <!-- Card 3 -->
-         <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
           <div class="card">
             <img src="./images/netflix.png" class="card-img-top" alt="image of the netflix homepage">
             <div class="card-body">
@@ -91,8 +98,8 @@
           </div>
         </div>
 
-         <!-- Card 4 -->
-         <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <!-- Card 4 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
           <div class="card">
             <img src="./images/paramount.png" class="card-img-top" alt="Paramount homepage">
             <div class="card-body">
@@ -102,106 +109,97 @@
             </div>
           </div>
         </div>
-           
-        </div>
-    </div>
-</div>
-</div>
 
-<div class ="section-2">
-  <div class="container mt-5" id="skills">
-    <div class="row">
-      <!--Skills section-->
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-12" >
-        <div class="card" id="card-1">
-          <div class="card-body">
-            <h5 class="card-title">Skills</h5>
-            <p class="card-text">Skills acquired from this bootcamp.</p>
-            <ul>
-              <li>Learning how to use git,github,deployment,organise directory</li>
-              <li>Learning Html,Css,Javascript,Jquery,APIs,React and Node</li>
-              <li>Learning to work as team, use agile processes etc</li>
-            </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="section-2">
+    <div class="container mt-5" id="skills">
+      <div class="row">
+        <!--Skills section-->
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+          <div class="card" id="card-1">
+            <div class="card-body">
+              <h5 class="card-title">Skills</h5>
+              <p class="card-text">Skills acquired from this bootcamp.</p>
+              <ul>
+                <li>Learning how to use git,github,deployment,organise directory</li>
+                <li>Learning Html,Css,Javascript,Jquery,APIs,React and Node</li>
+                <li>Learning to work as team, use agile processes etc</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="section 3">
-  <div class="container mt-5" >
-    <div class="row">
-       <!--About me section-->
-       <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="about me">
-        <div class="card" id="card-2">
-          <div class="card-body">
-            <h5 class="card-title">About me</h5>
-            <p class="card-text"> I'm  passionate profession with a knack for blending creativity and technology. My journey is guided by a commitment to innovation and a love for solving real-world challenges. Join me as we explore the dynamic intersection of creativity and technology together!</p>
+  <div class="section 3">
+    <div class="container mt-5">
+      <div class="row">
+        <!--About me section-->
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="about me">
+          <div class="card" id="card-2">
+            <div class="card-body">
+              <h5 class="card-title">About me</h5>
+              <p class="card-text"> I'm passionate profession with a knack for blending creativity and technology. My
+                journey is guided by a commitment to innovation and a love for solving real-world challenges. Join me as
+                we explore the dynamic intersection of creativity and technology together!</p>
+            </div>
+          </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="contact">
+          <div class="card" id="card-3">
+            <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <ul class="card-text">
+                <li>Email: <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+                    class="contact-link">Your LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/your-github-username" target="_blank" class="contact-link">Your
+                    GitHub Profile</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-
-      <!--Contact section-->
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="contact">
-        <div class="card" id="card-3">
-          <div class="card-body">
-            <h5 class="card-title">Contact</h5>
-            <ul class="card-text">
-              <li>Email: <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a></li>
-              <li>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="contact-link">Your LinkedIn Profile</a></li>
-              <li>GitHub: <a href="https://github.com/your-github-username" target="_blank" class="contact-link">Your GitHub Profile</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
     </div>
-
   </div>
 
-</div>
 
 
-    
-    <!--Code for the footer-->
-    <footer class="footer bg-white">
-      <div class="container" id="contact">
-        <div class="row">
-          <div class=" card-container col-md-4 col-4 mb-4">
-            <div class="card" style="width: 18rem;">
-            <a href="#">Email</a></li>
-          </div>
-          </div>
-
-          <div class=" card-container col-md-4 col-4 mb-4">
-            <div class="card" style="width: 18rem;">
-            <a href="#">Linkin</a></li>
-          </div>
-          </div>
-
-          <div class=" card-container col-md-4 col-4 mb-4">
-            <div class="card" style="width: 18rem;">
-            <a href="#">Github</a></li>
-          </div>
-          </div>
-
-        
+  <!--Code for the footer-->
+  <footer class="footer bg-white">
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <h2>Connect with Me</h2>
+        <div class="btn-group">
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+            class="btn btn-primary contact-btn">LinkedIn</a>
+          <a href="https://github.com/your-github-username" target="_blank"
+            class="btn btn-primary contact-btn">GitHub</a>
+          <a href="mailto:your.email@example.com" class="btn btn-primary contact-btn">Email</a>
+        </div>
       </div>
-      </div>
-    </footer>
+    </div>
+    </div>
+  </footer>
 
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-  integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-  integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-  crossorigin="anonymous"></script>
-  </body>
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
 
 
@@ -214,4 +212,4 @@ All buttons should display a box shadow upon hover.
 
 Your Bootstrap solution should minimize use of media queries.
 
-Deploy your new Bootstrap-powered portfolio to GitHub Pages. --> 
+Deploy your new Bootstrap-powered portfolio to GitHub Pages. -->
