@@ -61,24 +61,15 @@ footer {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
 
-    /* @media(max-width:768px) {
+/* style at 768px screen size*/
+    @media(max-width:768px) {
 
-      .jumbotron h1 {
-        font-size: 24px;
+
+      .jumboCopy {
+        height: 100%;
+        width: 100%;
+        display: block;
+
       }
 
-      .jumbotron img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-      } */
-
-
-/* 
     }
-
-    @media (max-width:576px) {
-
-
-    } */
