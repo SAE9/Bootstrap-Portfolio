@@ -20,9 +20,9 @@ The "Bootstrap-Portfolio" project creates a sophisticated and responsive portfol
 
 
 ## Images 
-![see here]()
-![see here]()
-![see here]()
+![see here](assets/bs-1.png)
+![see here](assets/bs-2.png)
+![see here](assets/bs-3.png)
 
 ## Credits
 
